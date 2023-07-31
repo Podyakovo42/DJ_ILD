@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1E1E1E;
+    color: #F0F0F0;
+}
+a{
+    text-decoration: none;
+    color: #F0F0F0;
+}
+.logo-head a{
+    transition: 0.2s;
+}
+.container{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    width: auto;
+    height: 55px;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+.content{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.block{
+    width: 892px;
+    height: 208px;
+    margin: 50px auto 50px auto;
+}
+.block img{
+    opacity: 0.75;
+    transition: 0.2s;
+}
+.block .img-track{
+    float: left;
+}
+audio{
+    width: 600px;
+    height: 30px;
+    margin: 75px 0 0 0;
+}
+.button{
+    margin: 10px 0 0 0;
+}
+.button div{
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+.up img{
+    margin: 0 0 25px 0;
+    opacity: 0.75;
+    transition: 0.2s;
+}
+
+/*Анимации при наведении*/
+.header .logo-head a:hover{
+    opacity: 0.75;
+}
+.block img:hover{
+    opacity: 0.95;
+    transform: scale(105%);
+}
+.up img:hover{
+    opacity: 0.95;
+    transform: scale(110%);
+}
